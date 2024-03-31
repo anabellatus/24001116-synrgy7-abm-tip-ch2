@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tip</string>
+    <string name="tip_time">Tiempo de Propina</string>
+    <string name="image_of_pay">imagen de pago</string>
+    <string name="cost_of_service">Costo de entrada del servicio</string>
+    <string name="how_was_the_service">Cuántas propinas quieres dar?</string>
+    <string name="twenty_percent">20%</string>
+    <string name="fifteen_percent">15%</string>
+    <string name="five_percent">5%</string>
+    <string name="no_tip">0% Sin propina</string>
+    <string name="round_up_tip">redondea tu propina?</string>
+    <string name="calculate">Calcular</string>
+    <string name="tip_amount">Rp. 0, -</string>
+    <string name="tip_title">Cuenta Total</string>
+</resources>

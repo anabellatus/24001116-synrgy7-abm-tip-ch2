@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tip</string>
+    <string name="tip_time">Saatnya Tip</string>
+    <string name="image_of_pay">gambar bayar</string>
+    <string name="cost_of_service">Masukkan Biaya Layanan</string>
+    <string name="how_was_the_service">Berapa banyak tip yang ingin Anda berikan?</string>
+    <string name="twenty_percent">20%</string>
+    <string name="fifteen_percent">15%</string>
+    <string name="five_percent">5%</string>
+    <string name="no_tip">0% Tidak Perlu Tip</string>
+    <string name="round_up_tip">bulatkan tip?</string>
+    <string name="calculate">Hitung</string>
+    <string name="tip_amount">Rp. 0, -</string>
+    <string name="tip_title">Total Tagihan</string>
+</resources>
