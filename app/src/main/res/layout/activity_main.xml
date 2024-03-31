@@ -8,7 +8,7 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/image_pay"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_title" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_cost"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_pay" />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/how_service"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,32 +61,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/how_service">
 
-        <RadioButton
+        <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/tip_twenty_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/twenty_percent" />
 
-        <RadioButton
+        <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/tip_fifteen_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fifteen_percent" />
 
-        <RadioButton
+        <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/tip_five_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/five_percent" />
 
-        <RadioButton
+        <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/tip_zero_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/no_tip" />
     </RadioGroup>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tip_result_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
         app:layout_constraintBottom_toTopOf="@id/tip_result"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tip_result"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
         app:layout_constraintBottom_toBottomOf="@id/tip_options"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <Switch
+    <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/round_up_switch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -122,7 +122,7 @@
         app:layout_constraintTop_toBottomOf="@id/tip_options"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/calculate_button"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
