@@ -10,6 +10,6 @@
     <string name="no_tip">0% Sin propina</string>
     <string name="round_up_tip">redondea tu propina?</string>
     <string name="calculate">Calcular</string>
-    <string name="tip_amount">Rp. 0, -</string>
+    <string name="tip_amount">€ 0</string>
     <string name="tip_title">Cuenta Total</string>
 </resources>

@@ -10,6 +10,6 @@
     <string name="no_tip">0% No Tip</string>
     <string name="round_up_tip">round up your tip?</string>
     <string name="calculate">Calculate</string>
-    <string name="tip_amount">Rp. 0, -</string>
+    <string name="tip_amount">$ 0</string>
     <string name="tip_title">Total Bill</string>
 </resources>
